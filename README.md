@@ -15,11 +15,7 @@
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/josemitovard/](https://www.linkedin.com/in/josemitovard/)
 
-- ⚡ Fun fact **I like play piano, play video games, exercise and spend time with close friends**
-
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+- ⚡ Fun fact **I like play piano, play video games, exercise and spend time with close friends and my dog Honey**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

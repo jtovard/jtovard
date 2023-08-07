@@ -1,9 +1,7 @@
-<h1 align="center">Hi 👋, I'm Jota <img align="right" src="https://komarev.com/ghpvc/?username=jtovard&label=Profile%20views&color=0e75b6&style=flat" alt="jtovard" /></h1> 
+<h1 align="center">Hi 👋, I'm Jota </h1> 
 <h3 align="center">A developer achievement-oriented in an analytical and objective waying being able to adapt easily</h3>
 
 - 🔭 I’m currently working on [COR](https://projectcor.com/)
-
-- 🌱 I’m currently learning **React.Js**
 
 - 💬 Ask me about **SQL, PHP, NodeJs, JavaScript**
 

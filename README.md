@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [COR](https://projectcor.com/)
 
-- 💬 Ask me about **SQL, PHP, NodeJs, JavaScript**
+- 💬 Ask me about **SQL, PHP, NodeJs, JavaScript, TypeScript**
 
 - 📫 How to reach me **josemigueltovarduarte@gmail.com**
 

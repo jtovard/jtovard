@@ -1,83 +1,133 @@
-<h1 align="center">Hola 👋 Soy Jota</h1>
-<h3 align="center">Engineering manager mindset · orientado a resultados · analítico · curioso por sistemas complejos</h3>
+<!-- Paleta neon BuzumAIcenter: #0d0021 #120033 #f72585 #4cc9f0 #b5179e #7bf1a8 #f9c74f #ff4d6d -->
+<div align="center">
+  <img src="assets/header-neon.svg" alt="Jota — BuzumAIcenter synthwave header" width="92%" />
+</div>
 
----
+<div align="center">
 
-### Qué estoy construyendo ahora
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0d0021)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=120033)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=1a0040)](https://www.docker.com/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&labelColor=0d0021)](https://www.linux.org/)
 
-| Área | Qué es |
-|------|--------|
-| **[BuzumAICenter](https://github.com/jtovard/buzumAIcenter)** | Servidor AI personal dockerizado: **FastAPI**, agentes **CrewAI**, **Ollama** local, **ChromaDB** + vault **Obsidian** como RAG, bot **Telegram** 24/7, señales de mercado y pipeline de **noticias RSS** con sentimiento. |
-| **Pi como gateway** | Raspberry Pi con compose ligero: news API/collector/scorer, Chroma, vault watcher y bot — siempre encendido; LLM pesado vía proxy a la PC cuando hace falta. |
-| **[COR](https://projectcor.com/)** | Laburo profesional actual — producto y equipo. |
+[![Agents](https://img.shields.io/badge/CrewAI_agents-f72585?style=for-the-badge&labelColor=120033)](https://github.com/jtovard/buzumAIcenter)
+[![LLM](https://img.shields.io/badge/Ollama_%7C_RAG-4cc9f0?style=for-the-badge&labelColor=0d0021)](https://github.com/jtovard/buzumAIcenter)
+[![SQLite](https://img.shields.io/badge/SQLite_WAL-b5179e?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=120033)](https://www.sqlite.org/)
 
-### Dominios que manejo con soltura
+</div>
 
-- **Backend & datos:** Python, FastAPI, SQLite (WAL, pipelines concurrentes), PHP/Symfony/Laravel, Node.js, SQL (PostgreSQL, MySQL).
-- **AI / automatización:** orquestación multi-agente, prompts operativos, RAG, embeddings locales, integración MCP/Cursor.
-- **Mercados (proyecto personal):** indicadores técnicos, watchlist + cartera, alertas Telegram, arquitectura de señales con guardrails — *siempre DYOR, nada de esto es asesoramiento financiero*.
-- **Infra:** Docker, Linux, CI habitual, despliegues hogar/LAN.
+<br/>
 
-### Contacto
+<div align="center">
 
-- 📫 **josemigueltovarduarte@gmail.com**
-- 📄 [LinkedIn](https://www.linkedin.com/in/josemitovard/)
+### ⚡ En foco ahora
 
-### Conectar
+</div>
 
-<p align="left">
-<a href="https://dev.to/buzusuma" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="buzusuma" height="30" width="40" /></a>
-<a href="https://twitter.com/jmi_t" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jmi_t" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/josemitovard/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-<a href="https://instagram.com/josemitovar" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="josemitovar" height="30" width="40" /></a>
-</p>
+<table align="center">
+<tr><td align="center" width="33%">
 
-### Herramientas & lenguajes
+[![BuzumAIcenter](https://img.shields.io/badge/repo-BuzumAIcenter-f72585?style=for-the-badge&logo=github&logoColor=white&labelColor=120033)](https://github.com/jtovard/buzumAIcenter)
 
-<p align="left">
-<a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
-<a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/></a>
-<a href="https://www.docker.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>
-<a href="https://www.linux.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
-<a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
-<a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
-<a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
-<a href="https://nextjs.org/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/></a>
-<a href="https://nodejs.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
-<a href="https://www.php.net" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/></a>
-<a href="https://symfony.com" target="_blank"><img src="https://symfony.com/logos/symfony_black_03.svg" alt="symfony" width="40" height="40"/></a>
-<a href="https://laravel.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/></a>
-<a href="https://www.postgresql.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></a>
-<a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>
-<a href="https://redis.io" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a>
-<a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/></a>
-<a href="https://aws.amazon.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a>
-<a href="https://graphql.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/></a>
-<a href="https://www.jenkins.io" target="_blank"><img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/></a>
-</p>
+<strong>Servidor AI dockerizado</strong> · FastAPI · CrewAI · Ollama · ChromaDB · Obsidian RAG · Telegram · MCP/Cursor<br/><br/>
+🎯 Señales <strong>watchlist ∪ cartera</strong> · digest <strong>noticias ×5</strong> · RSS + sentimiento
+
+</td><td align="center" width="33%">
+
+[![Pi gateway](https://img.shields.io/badge/hardware-Raspberry_Pi-7bf1a8?style=for-the-badge&logo=raspberrypi&logoColor=black&labelColor=0d0021)](https://github.com/jtovard/buzumAIcenter)
+
+<strong>Siempre encendido</strong>: news API/collector/scorer, Chroma, vault watcher, bot · LLM por proxy a la PC
+
+</td><td align="center" width="33%">
+
+[![COR](https://img.shields.io/badge/product-COR-f9c74f?style=for-the-badge&labelColor=1a0040&logoColor=000)](https://projectcor.com/)
+
+Laburo profesional · equipo &amp; producto
+
+</td></tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+### 🧠 Dominios
+
+</div>
+
+| | |
+|:---:|:---|
+| ![](https://img.shields.io/badge/-Backend_%26_datos-4cc9f0?style=flat-square&labelColor=120033) | Python, FastAPI, SQLite (WAL), PHP/Symfony/Laravel, Node.js, PostgreSQL, MySQL |
+| ![](https://img.shields.io/badge/-AI_%26_automatización-f72585?style=flat-square&labelColor=120033) | Multi-agente, prompts operativos, RAG, embeddings locales, integración MCP |
+| ![](https://img.shields.io/badge/-Mercados_(personal)-b5179e?style=flat-square&labelColor=120033) | Indicadores, alertas Telegram, guardrails — **DYOR**, no es asesoramiento financiero |
+| ![](https://img.shields.io/badge/-Infra-7bf1a8?style=flat-square&labelColor=0d0021) | Docker, Linux, despliegues hogar/LAN |
+
+<br/>
+
+<div align="center">
+
+### 📫 Contacto & redes
+
+**josemigueltovarduarte@gmail.com** · [LinkedIn](https://www.linkedin.com/in/josemitovard/)
+
+<br/>
+
+[![Dev.to](https://img.shields.io/badge/dev.to-buzusuma-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white&labelColor=3d0080)](https://dev.to/buzusuma)
+[![Twitter](https://img.shields.io/badge/Twitter-jmi_t-4cc9f0?style=for-the-badge&logo=x&logoColor=white&labelColor=120033)](https://twitter.com/jmi_t)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jota-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a0040)](https://www.linkedin.com/in/josemitovard/)
+[![Instagram](https://img.shields.io/badge/Instagram-josemitovar-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=120033)](https://instagram.com/josemitovar)
+
+<br/>
+
+### 🛠 Stack (neon badges)
+
+[![Py](https://img.shields.io/badge/Python-f72585?style=flat-square&logo=python&logoColor=white&labelColor=120033)](https://www.python.org/)
+[![Fa](https://img.shields.io/badge/FastAPI-4cc9f0?style=flat-square&logo=fastapi&logoColor=0d0021&labelColor=e0d7ff)](https://fastapi.tiangolo.com/)
+[![Dock](https://img.shields.io/badge/Docker-b5179e?style=flat-square&logo=docker&logoColor=white&labelColor=120033)](https://www.docker.com/)
+[![Lin](https://img.shields.io/badge/Linux-f9c74f?style=flat-square&logo=linux&logoColor=black&labelColor=1a0040)](https://www.linux.org/)
+[![Git](https://img.shields.io/badge/Git-ff4d6d?style=flat-square&logo=git&logoColor=white&labelColor=120033)](https://git-scm.com/)
+[![JS](https://img.shields.io/badge/JavaScript-7bf1a8?style=flat-square&logo=javascript&logoColor=black&labelColor=0d0021)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TS](https://img.shields.io/badge/TypeScript-4cc9f0?style=flat-square&logo=typescript&logoColor=white&labelColor=120033)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-f72585?style=flat-square&logo=react&logoColor=white&labelColor=120033)](https://reactjs.org/)
+[![Next](https://img.shields.io/badge/Next.js-e0d7ff?style=flat-square&logo=nextdotjs&logoColor=black&labelColor=1a0040)](https://nextjs.org/)
+[![Node](https://img.shields.io/badge/Node-7bf1a8?style=flat-square&logo=nodedotjs&logoColor=black&labelColor=0d0021)](https://nodejs.org/)
+[![PHP](https://img.shields.io/badge/PHP-9b87c4?style=flat-square&logo=php&logoColor=white&labelColor=120033)](https://www.php.net/)
+[![Sym](https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white&labelColor=3d0080)](https://symfony.com/)
+[![Lar](https://img.shields.io/badge/Laravel-ff4d6d?style=flat-square&logo=laravel&logoColor=white&labelColor=120033)](https://laravel.com/)
+[![Pg](https://img.shields.io/badge/PostgreSQL-4cc9f0?style=flat-square&logo=postgresql&logoColor=white&labelColor=120033)](https://www.postgresql.org/)
+[![My](https://img.shields.io/badge/MySQL-f9c74f?style=flat-square&logo=mysql&logoColor=black&labelColor=1a0040)](https://www.mysql.com/)
+[![Redis](https://img.shields.io/badge/Redis-f72585?style=flat-square&logo=redis&logoColor=white&labelColor=120033)](https://redis.io/)
+[![Pandas](https://img.shields.io/badge/Pandas-130754?style=flat-square&logo=pandas&logoColor=white&labelColor=120033)](https://pandas.pydata.org/)
+[![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white&labelColor=120033)](https://aws.amazon.com/)
+[![GQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white&labelColor=1a0040)](https://graphql.org/)
 
 <details>
-<summary><b>Más iconos (legacy stack)</b></summary>
-<p align="left">
-<a href="https://babeljs.io/" target="_blank"><img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/></a>
-<a href="https://www.chartjs.org" target="_blank"><img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/></a>
-<a href="https://www.w3schools.com/css/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
-<a href="https://www.w3.org/html/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
-<a href="https://mochajs.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/></a>
-<a href="https://postman.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/></a>
-<a href="https://pytorch.org/" target="_blank"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/></a>
-<a href="https://scikit-learn.org/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/></a>
-<a href="https://www.tensorflow.org" target="_blank"><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/></a>
-<a href="https://webpack.js.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/></a>
-<a href="https://zapier.com" target="_blank"><img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" alt="zapier" width="40" height="40"/></a>
-</p>
+<summary><b>Más herramientas (legacy)</b></summary>
+
+[![Babel](https://img.shields.io/badge/Babel-F9DC3E?style=flat-square&logo=babel&logoColor=black&labelColor=120033)](https://babeljs.io/)
+[![Chart](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white&labelColor=120033)](https://www.chartjs.org/)
+[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white&labelColor=0d0021)](https://www.w3schools.com/css/)
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white&labelColor=120033)](https://www.w3.org/html/)
+[![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white&labelColor=1a0040)](https://www.jenkins.io/)
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white&labelColor=120033)](https://postman.com/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white&labelColor=120033)](https://pytorch.org/)
+[![SK](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white&labelColor=1a0040)](https://scikit-learn.org/)
+[![TF](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white&labelColor=120033)](https://www.tensorflow.org/)
+[![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=black&labelColor=0d0021)](https://webpack.js.org/)
+[![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white&labelColor=120033)](https://zapier.com/)
+
 </details>
+
+</div>
 
 ---
 
-⚡ **Extra:** piano, videojuegos, entrenar y tiempo con amigos.
+<div align="center">
 
-<p align="left"><a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jtovard" alt="jtovard" /></a></p>
+⚡ **Extra:** piano · videojuegos · entrenar · tiempo con amigos
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jtovard&" alt="jtovard streak" /></p>
+[![trophy](https://github-profile-trophy.vercel.app/?username=jtovard&theme=dracula&column=7&margin-w=10&margin-h=10)](https://github.com/ryo-ma/github-profile-trophy)
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jtovard&theme=tokyonight&ring=f72585&fire=f72585&currStreakLabel=4cc9f0" alt="GitHub streak" />
+
+</div>

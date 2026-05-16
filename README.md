@@ -14,7 +14,12 @@
 [![LLM](https://img.shields.io/badge/Ollama_%7C_RAG-4cc9f0?style=for-the-badge&labelColor=0d0021)](https://github.com/jtovard/buzumAIcenter)
 [![SQLite](https://img.shields.io/badge/SQLite_WAL-b5179e?style=for-the-badge&logo=sqlite&logoColor=white&labelColor=120033)](https://www.sqlite.org/)
 
-</div>
+[![Laravel](https://img.shields.io/badge/Laravel-ff4d6d?style=for-the-badge&logo=laravel&logoColor=white&labelColor=120033)](https://laravel.com/)
+[![Cursor](https://img.shields.io/badge/Cursor_%7C_Claude-f9c74f?style=for-the-badge&labelColor=1a0040)](https://cursor.com/)
+[![MCP](https://img.shields.io/badge/MCP_integrations-7bf1a8?style=for-the-badge&labelColor=0d0021)](https://modelcontextprotocol.io/)
+[![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=120033)](https://playwright.dev/)
+
+</motion>
 
 <br/>
 
@@ -42,7 +47,9 @@
 
 [![COR](https://img.shields.io/badge/product-COR-f9c74f?style=for-the-badge&labelColor=1a0040&logoColor=000)](https://projectcor.com/)
 
-Laburo profesional · equipo &amp; producto
+<strong>Engineering Manager</strong> · roadmap técnico · habilitar al equipo con IA<br/><br/>
+🏗 <strong>Plataforma agéntica</strong>: hub <code>cor-agents</code> + agentes por dominio (bugs, migraciones Support)<br/>
+📋 <strong>SDLC</strong> en Cursor · skills Claude · MCP COR · Laravel/PHP · E2E Playwright
 
 </td></tr>
 </table>
@@ -60,7 +67,64 @@ Laburo profesional · equipo &amp; producto
 | ![](https://img.shields.io/badge/-Backend_%26_datos-4cc9f0?style=flat-square&labelColor=120033) | Python, FastAPI, SQLite (WAL), PHP/Symfony/Laravel, Node.js, PostgreSQL, MySQL |
 | ![](https://img.shields.io/badge/-AI_%26_automatización-f72585?style=flat-square&labelColor=120033) | Multi-agente, prompts operativos, RAG, embeddings locales, integración MCP |
 | ![](https://img.shields.io/badge/-Mercados_(personal)-b5179e?style=flat-square&labelColor=120033) | Indicadores, alertas Telegram, guardrails — **DYOR**, no es asesoramiento financiero |
-| ![](https://img.shields.io/badge/-Infra-7bf1a8?style=flat-square&labelColor=0d0021) | Docker, Linux, despliegues hogar/LAN |
+| ![](https://img.shields.io/badge/-Infra-7bf1a8?style=flat-square&labelColor=0d0021) | Docker, Linux, despliegues hogar/LAN, GitHub Actions, workspace monorepo |
+| ![](https://img.shields.io/badge/-Engineering_leadership-f9c74f?style=flat-square&labelColor=1a0040) | Roadmap técnico, priorización, deuda, alineamiento con producto/stakeholders, estándares de equipo |
+| ![](https://img.shields.io/badge/-Plataforma_agéntica_(COR)-ff4d6d?style=flat-square&labelColor=120033) | Ver tabla abajo — flujos operativos versionados, no prompts sueltos |
+
+<br/>
+
+<div align="center">
+
+### 🏗 COR · Patrones & arquitectura (highlights recientes)
+
+</div>
+
+<table align="center">
+<tr><td width="50%" valign="top">
+
+**Arquitectura hub-and-spoke**
+
+- Hub `cor-agents`: registry YAML, `agent.manifest.yaml`, `link-agents.py`
+- Un repo por agente (`bug-resolver`, `support-migrations`) — sin duplicar KB
+- Workspace `cor/` · rules Cursor · skills Claude · mensajes stakeholder vía proxy *Agente Smith*
+
+**Proceso agnóstico de herramienta**
+
+- `core/` (contratos, playbooks) + `adapters/` (Cursor, Claude)
+- Verificable por AI: `link-agents.py --verify --json`
+
+</td><td width="50%" valign="top">
+
+**Agentes en producción (privados)**
+
+| Agente | Qué estandariza |
+|--------|-----------------|
+| **bug-resolver** | Triage → dossier → repro local → fix acotado → PR legible `(COR-id)` |
+| **support-migrations** | Tickets Support → migraciones Laravel parametrizables + KB de templates |
+
+**Stack & disciplina**
+
+- PHP/Laravel, migraciones multi-tenant, guardias de ambiente
+- Playwright + PHPUnit · branches desde tag deployado · PRs quirúrgicos
+- Integración ticket COR (MCP): claim, updates HTML para PM/QA
+
+</td></tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+### 🧭 Enfoque EM · roadmap
+
+</div>
+
+| | |
+|:---:|:---|
+| **Priorizar** | Impacto en cliente, riesgo, deuda que bloquea velocidad — no “nice to have” infinito |
+| **Estandarizar** | Playbooks y agentes para que el equipo repita calidad sin depender de una persona |
+| **Medir** | Bugs con trazabilidad, migraciones con templates, PRs revisables en minutos |
+| **Comunicar** | Lenguaje claro hacia producto/QA (updates COR, no jerga de diff interno) |
 
 <br/>
 
@@ -100,6 +164,10 @@ Laburo profesional · equipo &amp; producto
 [![Pandas](https://img.shields.io/badge/Pandas-130754?style=flat-square&logo=pandas&logoColor=white&labelColor=120033)](https://pandas.pydata.org/)
 [![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white&labelColor=120033)](https://aws.amazon.com/)
 [![GQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white&labelColor=1a0040)](https://graphql.org/)
+[![Cursor](https://img.shields.io/badge/Cursor-f9c74f?style=flat-square&labelColor=1a0040)](https://cursor.com/)
+[![PW](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white&labelColor=120033)](https://playwright.dev/)
+[![YAML](https://img.shields.io/badge/YAML_manifests-4cc9f0?style=flat-square&labelColor=120033)](https://yaml.org/)
+[![GHA](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white&labelColor=0d0021)](https://github.com/features/actions)
 
 <details>
 <summary><b>Más herramientas (legacy)</b></summary>

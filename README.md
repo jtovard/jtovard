@@ -19,7 +19,7 @@
 [![MCP](https://img.shields.io/badge/MCP_integrations-7bf1a8?style=for-the-badge&labelColor=0d0021)](https://modelcontextprotocol.io/)
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=120033)](https://playwright.dev/)
 
-</motion>
+</div>
 
 <br/>
 

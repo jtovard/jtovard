@@ -19,6 +19,8 @@
 [![MCP](https://img.shields.io/badge/MCP_integrations-7bf1a8?style=for-the-badge&labelColor=0d0021)](https://modelcontextprotocol.io/)
 [![Hermes](https://img.shields.io/badge/Hermes_Agent-f72585?style=for-the-badge&labelColor=120033)](https://github.com/NousResearch/hermes-agent)
 [![Anthropic](https://img.shields.io/badge/Anthropic_Claude-d97757?style=for-the-badge&labelColor=1a0040)](https://www.anthropic.com/)
+[![Hermes](https://img.shields.io/badge/Hermes_Agent-f72585?style=for-the-badge&labelColor=120033)](https://github.com/NousResearch/hermes-agent)
+[![Anthropic](https://img.shields.io/badge/Anthropic_Claude-d97757?style=for-the-badge&labelColor=1a0040)](https://www.anthropic.com/)
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=120033)](https://playwright.dev/)
 
 </div>
@@ -68,6 +70,7 @@
 |:---:|:---|
 | ![](https://img.shields.io/badge/-Backend_%26_datos-4cc9f0?style=flat-square&labelColor=120033) | Python, FastAPI, SQLite (WAL), PHP/Symfony/Laravel, Node.js, PostgreSQL, MySQL |
 | ![](https://img.shields.io/badge/-AI_%26_automatización-f72585?style=flat-square&labelColor=120033) | Multi-agente, prompts operativos, RAG, embeddings locales, integración MCP |
+| ![](https://img.shields.io/badge/-Agentes_conversacionales-4cc9f0?style=flat-square&labelColor=120033) | Diseño de asistentes always-on con memoria persistente · MCP servers custom · guardrails anti-alucinación · tool use sobre Anthropic / Claude |
 | ![](https://img.shields.io/badge/-Agentes_conversacionales-4cc9f0?style=flat-square&labelColor=120033) | Diseño de asistentes always-on con memoria persistente · MCP servers custom · guardrails anti-alucinación · tool use sobre Anthropic / Claude |
 | ![](https://img.shields.io/badge/-Mercados_(personal)-b5179e?style=flat-square&labelColor=120033) | Indicadores, alertas Telegram, guardrails — **DYOR**, no es asesoramiento financiero |
 | ![](https://img.shields.io/badge/-Infra-7bf1a8?style=flat-square&labelColor=0d0021) | Docker, Linux, despliegues hogar/LAN, GitHub Actions, workspace monorepo |

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="buzum — el centro de AI que cambia de color contigo">
+  <defs>
+    <!-- background gradient: indigo top, turquoise bottom -->
+    <radialGradient id="bgTop" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#4B3DFF" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#070318" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgBot" cx="50%" cy="100%" r="55%">
+      <stop offset="0%" stop-color="#3DEFE0" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#070318" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- pixel grid pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#F2EEFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+
+    <!-- scanlines pattern -->
+    <pattern id="scan" width="1" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="#F2EEFF" fill-opacity="0.06"/>
+    </pattern>
+
+    <!-- neon glow filter for the second u -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- chameleon palette strip -->
+    <linearGradient id="chamStrip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3DEFE0"/>
+      <stop offset="16%"  stop-color="#3DEFE0"/>
+      <stop offset="17%"  stop-color="#FFC23D"/>
+      <stop offset="33%"  stop-color="#FFC23D"/>
+      <stop offset="34%"  stop-color="#5DFFAE"/>
+      <stop offset="50%"  stop-color="#5DFFAE"/>
+      <stop offset="51%"  stop-color="#C03DFF"/>
+      <stop offset="66%"  stop-color="#C03DFF"/>
+      <stop offset="67%"  stop-color="#FF6BC5"/>
+      <stop offset="83%"  stop-color="#FF6BC5"/>
+      <stop offset="84%"  stop-color="#7B6CFF"/>
+      <stop offset="100%" stop-color="#7B6CFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base background -->
+  <rect width="1200" height="340" fill="#070318"/>
+  <rect width="1200" height="340" fill="url(#bgTop)"/>
+  <rect width="1200" height="340" fill="url(#bgBot)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect width="1200" height="340" fill="url(#scan)"/>
+
+  <!-- corner sigils -->
+  <text x="40" y="40" font-family="Menlo, Consolas, ui-monospace, monospace" font-size="11" fill="#F2EEFF" fill-opacity="0.4" letter-spacing="3">· buzu online</text>
+  <text x="1160" y="40" text-anchor="end" font-family="Menlo, Consolas, ui-monospace, monospace" font-size="11" fill="#F2EEFF" fill-opacity="0.4" letter-spacing="3">2026 · ∞</text>
+
+  <!-- wordmark · buzum with double-u color trick -->
+  <g font-family="Helvetica Neue, Arial Black, system-ui, sans-serif" font-weight="900" font-size="200" letter-spacing="-9">
+    <text x="600" y="200" text-anchor="middle" fill="#F2EEFF">
+      <tspan>b</tspan><tspan fill="#6E63FF">u</tspan><tspan>z</tspan><tspan fill="#3DEFE0" filter="url(#glow)">u</tspan><tspan>m</tspan>
+    </text>
+  </g>
+
+  <!-- tagline -->
+  <text x="600" y="250" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="22" fill="#F2EEFF" fill-opacity="0.85" letter-spacing="0.3">
+    el centro de AI <tspan fill="#3DEFE0">que cambia de color</tspan> contigo
+  </text>
+
+  <!-- chameleon palette strip -->
+  <rect x="0" y="320" width="1200" height="4" fill="url(#chamStrip)" opacity="0.92"/>
+
+  <!-- bottom mono sigils -->
+  <text x="40" y="310" font-family="Menlo, Consolas, ui-monospace, monospace" font-size="10" fill="#F2EEFF" fill-opacity="0.3" letter-spacing="3">tx · live</text>
+  <text x="1160" y="310" text-anchor="end" font-family="Menlo, Consolas, ui-monospace, monospace" font-size="10" fill="#F2EEFF" fill-opacity="0.3" letter-spacing="3">io · net</text>
+</svg>

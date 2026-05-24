@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 12" role="presentation">
+  <defs>
+    <linearGradient id="cham" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3DEFE0"/>
+      <stop offset="16.6%" stop-color="#3DEFE0"/>
+      <stop offset="16.7%" stop-color="#FFC23D"/>
+      <stop offset="33.3%" stop-color="#FFC23D"/>
+      <stop offset="33.4%" stop-color="#5DFFAE"/>
+      <stop offset="50%"   stop-color="#5DFFAE"/>
+      <stop offset="50.1%" stop-color="#C03DFF"/>
+      <stop offset="66.6%" stop-color="#C03DFF"/>
+      <stop offset="66.7%" stop-color="#FF6BC5"/>
+      <stop offset="83.3%" stop-color="#FF6BC5"/>
+      <stop offset="83.4%" stop-color="#7B6CFF"/>
+      <stop offset="100%"  stop-color="#7B6CFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="4" width="1200" height="4" fill="url(#cham)"/>
+</svg>

@@ -1,14 +1,14 @@
-<!-- buzum brand v0.2 · mode: layered (intriga arriba · substance abajo) -->
+<!-- buzum v0.2 · profile mode: founder -->
 
 <div align="center">
   <a href="https://buzum.io">
-    <img src="assets/banner.svg" alt="buzum — el centro de AI que cambia de color contigo" width="100%" />
+    <img src="assets/banner.svg" alt="buzum" width="100%" />
   </a>
 </div>
 
 <div align="center">
 
-[![buzum.io](https://img.shields.io/badge/→_buzum.io-070318?style=for-the-badge&labelColor=3DEFE0&color=070318)](https://buzum.io)
+[![buzum.io](https://img.shields.io/badge/buzum.io-070318?style=for-the-badge&labelColor=3DEFE0&color=070318)](https://buzum.io)
 [![v0.2](https://img.shields.io/badge/v0.2-in_residency-7B6CFF?style=for-the-badge&labelColor=070318)](https://buzum.io)
 [![LinkedIn](https://img.shields.io/badge/linkedin-josemitovard-FF6BC5?style=for-the-badge&logo=linkedin&logoColor=F2EEFF&labelColor=070318)](https://www.linkedin.com/in/josemitovard/)
 
@@ -20,13 +20,12 @@
 
 <div align="center">
 
-### Una sola AI.<br/>Adopta forma según el playbook.
+# Agentes de AI que toman la forma de tu negocio.
 
-<sub>Construida y probada en mi propia casa antes de venderla a nadie.</sub>
+**Buzum** construye agentes adaptativos para PyMEs y emprendedores LATAM.<br/>
+Playbooks pre-construidos por dominio · ajuste hecho por humanos · sin lock-in.
 
-<br/>
-
-`buenos aires · raspberry pi · 24/7`
+<sub>Un agente. Muchas formas. Seis dominios. Production-ready.</sub>
 
 </div>
 
@@ -35,44 +34,75 @@
 <img src="assets/palette-divider.svg" width="100%" alt="—"/>
 
 <div align="center">
-  <img src="assets/palette-block.svg" alt="paleta chameleon" width="100%"/>
+  <img src="assets/palette-block.svg" alt="6 categorías de playbooks" width="100%"/>
 </div>
 
 <img src="assets/palette-divider.svg" width="100%" alt="—"/>
 
 <br/>
 
-## · qué hago
+## · qué resuelve Buzum
 
-Diseño y construyo **sistemas agénticos de AI en producción**. Engineering Manager en una SaaS LATAM, founder de Buzum. Trabajo en el cruce entre orquestación multi-agente, RAG sobre conocimiento privado, y deployment en infra propia (edge + cloud) — con foco en sistemas que corren 24/7 sin que un humano los esté mirando.
+**Buzu** es un agente camaleón. Cambia de oficio según el playbook activo: hoy atiende clientes en WhatsApp, mañana resume tu bandeja, pasado responde sobre tu manual de operaciones. Mismo agente, mismo deploy, distinto contexto.
 
-<div align="center">
+Seis categorías de playbooks. Una sola arquitectura. El cliente compra el playbook listo (precio fijo) o contrata **Buzum Studio** para ajuste a medida. **Tu data se queda con vos. Tu agente es portable.**
 
-[![Agentic AI](https://img.shields.io/badge/agentic_AI_systems-3DEFE0?style=flat-square&labelColor=070318)](https://buzum.io)
-[![Multi-Agent](https://img.shields.io/badge/multi--agent_orchestration-FFC23D?style=flat-square&labelColor=070318)](https://buzum.io)
-[![RAG](https://img.shields.io/badge/RAG_/_vector_search-5DFFAE?style=flat-square&labelColor=070318)](https://buzum.io)
-[![MCP](https://img.shields.io/badge/MCP_/_tool_use-C03DFF?style=flat-square&labelColor=070318)](https://buzum.io)
-[![Edge AI](https://img.shields.io/badge/edge_AI_/_self--hosted-FF6BC5?style=flat-square&labelColor=070318)](https://buzum.io)
-[![Eng Mgmt](https://img.shields.io/badge/engineering_management-7B6CFF?style=flat-square&labelColor=070318)](https://www.linkedin.com/in/josemitovard/)
-
-</div>
-
-<br/>
-
-**Construido a la fecha** (categorías, no detalles):
-
-- Sistemas autónomos de **trading signals 24/7** — riesgo gestionado, watchdog continuo, calibración walk-forward
-- **RAG sobre vault personal** — vector DB + LLM local para responder preguntas sobre conocimiento privado
-- **Asistente conversacional** con MCP custom + tool use multi-modelo (Claude + local)
-- **Plataforma agéntica interna** para una SaaS de 200+ FTEs: hub manifest-driven, adapters Cursor/Claude
-- **Pipeline de news + sentiment LLM** con scoring + digest diario
-- **Hardware companion device**: pantalla LCD con UI animada reaccionando a eventos del backend
+> **Primer playbook público**: `Buzu Wiki` — RAG sobre documentación interna, consultable por Telegram. En camino.
 
 <br/>
 
 <img src="assets/palette-divider.svg" width="100%" alt="—"/>
 
-## · stack que tengo callo
+## · jota
+
+**Engineering Manager** en [COR Global](https://projectcor.com) — SaaS LATAM, 200+ engineers — donde construyo la plataforma agéntica interna de la compañía: hub manifest-driven, registry de agentes por dominio, adapters Cursor/Claude.
+
+**Founder** de [Buzum](https://buzum.io). Diseño y construyo sistemas agénticos productivos que corren 24/7 sin un humano mirándolos.
+
+Buenos Aires · español/inglés · open a partnerships, talento técnico senior, y conversaciones serias.
+
+<br/>
+
+<img src="assets/palette-divider.svg" width="100%" alt="—"/>
+
+## · proof of work
+
+Sistemas en producción hoy (algunos públicos, otros bajo NDA):
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🟡 Autonomous trading agent**<br/>
+<sub>8+ meses corriendo 24/7. Watchdog SL/TP, walk-forward calibration, multi-agent crew (CrewAI), framework de señales O&D/gaps/fibonacci. 6 carteras gestionadas.</sub>
+
+**🟦 Conversational AI**<br/>
+<sub>Asistente Telegram con MCP custom (12 tools propias), Claude Haiku 4.5, memoria persistente, hooks event-driven al stack.</sub>
+
+**🟪 Knowledge RAG**<br/>
+<sub>Vector DB indexando 1.6k+ documentos personales (Obsidian vault). Query latency &lt;500ms, lessons learned auto-generadas cada 6h.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**🌸 Agentic platform @ COR**<br/>
+<sub>Hub manifest-driven con registry de agentes por dominio (bugs, migraciones, support). Sirviendo 200+ engineers. Adapters Cursor/Claude.</sub>
+
+**🟢 News + sentiment pipeline**<br/>
+<sub>RSS collector multi-source, sentiment LLM (Ollama qwen2.5), scoring, digest diario, asset tagging contra watchlist.</sub>
+
+**🔵 Edge AI deployment**<br/>
+<sub>Raspberry Pi 5 con pantalla LCD reactiva al backend, services systemd-native, túneles Cloudflare, VPN mesh Tailscale.</sub>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="assets/palette-divider.svg" width="100%" alt="—"/>
+
+## · stack
 
 <div align="center">
 
@@ -89,17 +119,16 @@ Diseño y construyo **sistemas agénticos de AI en producción**. Engineering Ma
 ![Linux](https://img.shields.io/badge/linux-070318?style=flat-square&logo=linux&logoColor=FFC23D&labelColor=070318)
 ![systemd](https://img.shields.io/badge/systemd-070318?style=flat-square&logoColor=C03DFF&labelColor=070318)
 ![Telegram](https://img.shields.io/badge/telegram_bot_api-070318?style=flat-square&logo=telegram&logoColor=3DEFE0&labelColor=070318)
-![Cloudflare](https://img.shields.io/badge/cloudflare-070318?style=flat-square&logo=cloudflare&logoColor=FFC23D&labelColor=070318)
+![Cloudflare](https://img.shields.io/badge/cloudflare_workers-070318?style=flat-square&logo=cloudflare&logoColor=FFC23D&labelColor=070318)
 ![Tailscale](https://img.shields.io/badge/tailscale-070318?style=flat-square&logo=tailscale&logoColor=7B6CFF&labelColor=070318)
-![Obsidian](https://img.shields.io/badge/obsidian-070318?style=flat-square&logo=obsidian&logoColor=C03DFF&labelColor=070318)
-
 ![Cursor](https://img.shields.io/badge/cursor-070318?style=flat-square&logoColor=3DEFE0&labelColor=070318)
 ![Claude Code](https://img.shields.io/badge/claude_code-070318?style=flat-square&logo=anthropic&logoColor=FF6BC5&labelColor=070318)
+
 ![Laravel](https://img.shields.io/badge/laravel-070318?style=flat-square&logo=laravel&logoColor=FF6BC5&labelColor=070318)
 ![PHP](https://img.shields.io/badge/php-070318?style=flat-square&logo=php&logoColor=7B6CFF&labelColor=070318)
 ![Playwright](https://img.shields.io/badge/playwright-070318?style=flat-square&logo=playwright&logoColor=5DFFAE&labelColor=070318)
-![Pi 5](https://img.shields.io/badge/raspberry_pi_5-070318?style=flat-square&logo=raspberrypi&logoColor=FF6BC5&labelColor=070318)
-![Pygame](https://img.shields.io/badge/pygame-070318?style=flat-square&logoColor=5DFFAE&labelColor=070318)
+![Pi 5](https://img.shields.io/badge/raspberry_pi-070318?style=flat-square&logo=raspberrypi&logoColor=FF6BC5&labelColor=070318)
+![Obsidian](https://img.shields.io/badge/obsidian-070318?style=flat-square&logo=obsidian&logoColor=C03DFF&labelColor=070318)
 
 </div>
 
@@ -109,38 +138,9 @@ Diseño y construyo **sistemas agénticos de AI en producción**. Engineering Ma
 
 <br/>
 
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
-
-<img src="https://img.shields.io/badge/-FFC23D?style=flat-square&color=FFC23D" height="14"/>
-
-### [COR Global](https://projectcor.com/)
-
-<sub>Engineering Manager<br/>plataforma agéntica interna · hub manifest-driven · adapters Cursor/Claude</sub>
-
-</td>
-<td width="50%" align="center" valign="top">
-
-<img src="https://img.shields.io/badge/-3DEFE0?style=flat-square&color=3DEFE0" height="14"/>
-
-### [Buzum](https://buzum.io)
-
-<sub>Founder · el agente se llama <strong>buzu</strong><br/>el centro de AI que cambia de color contigo</sub>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<img src="assets/palette-divider.svg" width="100%" alt="—"/>
-
-<br/>
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jtovard&hide_title=true&hide_border=true&show_icons=true&bg_color=070318&title_color=3DEFE0&text_color=F2EEFF&icon_color=7B6CFF&include_all_commits=true&count_private=true&ring_color=3DEFE0&hide=contribs" alt="github stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jtovard&hide_title=true&hide_border=true&layout=compact&bg_color=070318&title_color=3DEFE0&text_color=F2EEFF&langs_count=8" alt="top languages" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=jtovard&hide_title=true&hide_border=true&show_icons=true&bg_color=070318&title_color=3DEFE0&text_color=F2EEFF&icon_color=7B6CFF&include_all_commits=true&count_private=true&ring_color=3DEFE0&hide=contribs" alt="stats" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jtovard&hide_title=true&hide_border=true&layout=compact&bg_color=070318&title_color=3DEFE0&text_color=F2EEFF&langs_count=8" alt="languages" height="160"/>
 </div>
 
 <br/>
@@ -150,12 +150,12 @@ Diseño y construyo **sistemas agénticos de AI en producción**. Engineering Ma
 <br/>
 
 <div align="center">
+
+### ¿Hablamos?
+
+Clientes · partnerships · talento técnico senior · inversores
 
 [![buzum.io](https://img.shields.io/badge/buzum.io-070318?style=for-the-badge&labelColor=3DEFE0&color=070318)](https://buzum.io)
-[![LinkedIn](https://img.shields.io/badge/linkedin-070318?style=for-the-badge&labelColor=FF6BC5&color=070318)](https://www.linkedin.com/in/josemitovard/)
-
-<br/>
-
-<sub><em>si llegaste hasta acá, ya sabés qué hacer.</em></sub>
+[![LinkedIn](https://img.shields.io/badge/linkedin-josemitovard-070318?style=for-the-badge&labelColor=FF6BC5&color=070318&logo=linkedin&logoColor=F2EEFF)](https://www.linkedin.com/in/josemitovard/)
 
 </div>

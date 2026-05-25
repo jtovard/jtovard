@@ -41,7 +41,7 @@ Playbooks pre-construidos por dominio · ajuste hecho por humanos · sin lock-in
 
 <br/>
 
-## · qué resuelve Buzum
+## · qué resuelve buzum
 
 **Buzu** es un agente camaleón. Cambia de oficio según el playbook activo: hoy atiende clientes en WhatsApp, mañana resume tu bandeja, pasado responde sobre tu manual de operaciones. Mismo agente, mismo deploy, distinto contexto.
 
@@ -55,7 +55,7 @@ Seis categorías de playbooks. Una sola arquitectura. El cliente compra el playb
 
 ## · jota
 
-**Engineering Manager** en [COR Global](https://projectcor.com) — SaaS LATAM, 200+ engineers — donde construyo la plataforma agéntica interna de la compañía: hub manifest-driven, registry de agentes por dominio, adapters Cursor/Claude.
+**Engineering Manager** en [COR Global](https://projectcor.com) — SaaS LATAM — donde construyo la plataforma agéntica interna de la compañía: hub manifest-driven, registry de agentes por dominio, adapters Cursor/Claude.
 
 **Founder** de [Buzum](https://buzum.io). Diseño y construyo sistemas agénticos productivos que corren 24/7 sin un humano mirándolos.
 
@@ -86,7 +86,7 @@ Sistemas en producción hoy (algunos públicos, otros bajo NDA):
 <td width="50%" valign="top">
 
 **🌸 Agentic platform @ COR**<br/>
-<sub>Hub manifest-driven con registry de agentes por dominio (bugs, migraciones, support). Sirviendo 200+ engineers. Adapters Cursor/Claude.</sub>
+<sub>Hub manifest-driven con registry de agentes por dominio (bugs, migraciones, supportm manager Ops). Sirviendo a engineers. Adapters Cursor/Claude.</sub>
 
 **🟢 News + sentiment pipeline**<br/>
 <sub>RSS collector multi-source, sentiment LLM (Ollama qwen2.5), scoring, digest diario, asset tagging contra watchlist.</sub>
